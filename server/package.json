@@ -1,0 +1,47 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "chai": "^3.5.0",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "ejs-locals": "^1.0.2",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-processimage": "^8.0.2",
+    "fs": "0.0.1-security",
+    "generator-galvanize-express": "^1.2.4",
+    "gulp": "^3.9.1",
+    "imagemin": "^6.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "jimp": "^0.6.0",
+    "js-yaml": "^3.12.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.3.12",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.5.0",
+    "yo": "^1.8.5",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "compress-images": "^1.4.6",
+    "grunt-contrib-imagemin": "^3.1.0"
+  }
+}
